@@ -10,4 +10,5 @@ do
   ECHO unzipped
   awk '/en.z Barack_Obama /' pagecounts-2017-01-$currentfile >> barackobama
   rm pagecounts-2017-01-$currentfile
+  echo completednow 
 done
